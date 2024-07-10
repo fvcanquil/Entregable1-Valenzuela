@@ -38,7 +38,7 @@ while (true) {
   
       1. Ingresar cita
       2. Mostrar citas
-      4. Salir
+      3. Salir
   
       Ingrese la opción deseada:
     `);
