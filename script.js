@@ -51,8 +51,12 @@ while (true) {
         mostrarCitas();
         break;
       case "3":
-        alert("Saliendo del simulador...");
-        break;
+        if (confirm("¿Está seguro de que desea salir?")) {
+          alert("Saliendo del simulador...");
+          break;
+      } else {
+          break;
+      }
       default:
         alert("Opción inválida. Intente nuevamente.");
     }
